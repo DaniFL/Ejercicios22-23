@@ -9,7 +9,7 @@ public class Principal {
         Factorial f = new Factorial();
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero: ");
-        int n = sc.nextInt();
+        double n = sc.nextInt();
         System.out.println("El factorial de " + n + " es: " + f.calcularFactorial(n));
         sc.close();
 
