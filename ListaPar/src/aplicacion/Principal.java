@@ -1,9 +1,7 @@
 package aplicacion;
 
 import dominio.OListaP;
-
-import java.util.ArrayList;
-
+import java.util.Arrays;
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
@@ -23,7 +21,9 @@ public class Principal {
 
         }
         sc.close();
-        //llamamos al método obtener pares y le pasamos la lista como parámetro.
-        System.out.println("La lista de pares es: " ); //p.toString(p.obtenerPares(lista, n)));
+        //Imprimimos la lista de numeros pares.
+        System.out.println("La lista de numeros pares es: " + Arrays.toString(p.obtenerPares(lista, n)));
+
+
     }
 }

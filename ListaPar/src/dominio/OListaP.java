@@ -1,29 +1,19 @@
 package dominio;
 
 public class OListaP {
-    //a partir de una lista obtener otra lista con los elementos pares de manera recursiva
+    //Dada una lista de números naturales mayores o iguales que 2, obtiene
+    //otra lista con los números pares de la lista inicial, en el mismo orden y
+    //respetando los números repetidos. Por ejemplo,
+    //obtenerListaP ar([1, 2, 6, 11]) = [2, 6]. de manera recursiva
     public int[] obtenerPares(int[] lista, int n) {
-        //Caso base: si el numero de elementos de la lista es 0, la lista de pares es vacia
+        int[] listaPares = new int[n];
         if (n == 0) {
-            return new int[0];
+            return listaPares;
         } else {
-            //Si el elemento de la lista es par, lo añadimos a la lista de pares
             if (lista[n - 1] % 2 == 0) {
-                int[] listaPares = new int[n];
                 listaPares[n - 1] = lista[n - 1];
-                return listaPares;
-            } else {
-                //Si el elemento de la lista es impar, no lo añadimos a la lista de pares
-                return obtenerPares(lista, n - 1);
             }
+            return obtenerPares(lista, n - 1);
         }
     }
-
-    /*public String toString(int[] obtenerPares) {
-        String s = "";
-        for (int i = 0; i < obtenerPares.length; i++) {
-            s += obtenerPares[i] + " ";
-        }
-        return s;
-    }*/
 }

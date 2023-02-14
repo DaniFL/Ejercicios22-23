@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculo/Calculo.iml" filepath="$PROJECT_DIR$/Calculo/Calculo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" filepath="$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios22-23.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios22-23.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/Factorial/Factorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListaPar/ListaPar.iml" filepath="$PROJECT_DIR$/ListaPar/ListaPar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaPar2/ListaPar2.iml" filepath="$PROJECT_DIR$/ListaPar2/ListaPar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/MediaLista/MediaLista.iml" filepath="$PROJECT_DIR$/MediaLista/MediaLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" filepath="$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" filepath="$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SFibonacci/SFibonacci.iml" filepath="$PROJECT_DIR$/SFibonacci/SFibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/SParesLista/SParesLista.iml" filepath="$PROJECT_DIR$/SParesLista/SParesLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" filepath="$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaLista/SumaLista.iml" filepath="$PROJECT_DIR$/SumaLista/SumaLista.iml" />
