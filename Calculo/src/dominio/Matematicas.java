@@ -1,5 +1,4 @@
 package dominio;
-
 public class Matematicas {
     public float fibonacci(int n) {
         if (n == 0) {
