@@ -1,20 +1,19 @@
-package dominio;
-public class Desviacion {
-    public double desviacionTipica(int[] lista, int n, double media) {
-        //Caso base: si el numero de elementos de la lista es 0, la desviacion tipica es 0
-        if (n == 0) {
-            return 0;
-        } else {
-            return Math.sqrt((Math.pow((lista[n - 1] - media), 2) + desviacionTipica(lista, n - 1, media)) / n);
+package dominio;public class Desviacion {
+    // calculo desviacion tipica de una lista de numeros de manera recursiva
+    public double desviacionTipica(double[] lista, int n) {
+        double media = media(lista, n);
+        double suma = 0;
+        for (int i = 0; i < n; i++) {
+            suma += Math.pow(lista[i] - media, 2);
         }
+        return Math.sqrt(suma / n);
     }
-    public double mediaLista(int[] lista) {
-        double media = 0;
-        // Recorremos la lista y vamos sumando cada elemento a la variable media
-        for (int i = 0; i < lista.length; i++) {
-            media += lista[i];
+    // calculo de la media de una lista de numeros de manera recursiva
+    public double media(double[] lista, int n) {
+        double suma = 0;
+        for (int i = 0; i < n; i++) {
+            suma += lista[i];
         }
-        // Devolvemos la media de la lista, que es la suma de todos los elementos de la lista entre el numero de elementos
-        return media / lista.length;
+        return suma / n;
     }
 }

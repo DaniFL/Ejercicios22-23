@@ -5,22 +5,16 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        //Creamos un objeto de la clase Desviacion.
-        Desviacion d = new Desviacion();
-        //Creamos un objeto de la clase Scanner para leer datos por teclado.
-        Scanner sc = new Scanner(System.in);
-        //Pedimos al usuario que introduzca el número de elementos de la lista.
-        System.out.println("Ingrese el numero de elementos de la lista: ");
-        int n = sc.nextInt();
-        //Creamos un array de enteros de tamaño n.
-        int[] lista = new int[n];
-        //Recorremos el array y vamos pidiendo al usuario que introduzca los elementos de la lista.
+        Scanner entrada = new Scanner(System.in);
+        Desviacion desviacion = new Desviacion();
+        System.out.println("Ingrese la cantidad de numeros a ingresar: ");
+        int n = entrada.nextInt();
+        double[] lista = new double[n];
         for (int i = 0; i < n; i++) {
-            System.out.println("Ingrese el elemento " + (i + 1) + " de la lista: ");
-            lista[i] = sc.nextInt();
+            System.out.println("Ingrese el numero " + (i + 1) + ": ");
+            lista[i] = entrada.nextDouble();
         }
-        sc.close();
-        //llamamos al método desviacionLista y le pasamos la lista como parámetro.
-        System.out.println("La desviacion de la lista es: " + d.desviacionTipica(lista, n, d.mediaLista(lista) ));
+        System.out.println("La desviacion tipica es: " + desviacion.desviacionTipica(lista, n));
+        System.out.println("La media es: " + desviacion.media(lista, n));
     }
 }

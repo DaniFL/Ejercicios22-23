@@ -1,20 +1,17 @@
 package dominio;
 
 public class Matematicas {
-    public int fibonacci(float n) {
-        //caso base
+    // calcule el cociente entre el decimo tercer y el decimo segundo elemento de la sucesión de Fibonacci,y compare el resultado con 1+√5/2. de manera recursiva
+    public int fibonacci(int n) {
         if (n == 0) {
             return 0;
+        } else if (n == 1) {
+            return 1;
         } else {
-            if (n == 1) {
-                return 1;
-            } else {
-                return fibonacci(n - 1) + fibonacci(n - 2);
-            }
+            return fibonacci(n - 1) + fibonacci(n - 2);
         }
     }
-
-    public float cocienteFibonacci(int i, int i1) {
-        return Float.valueOf(fibonacci(i) / fibonacci(i1));
+    public double cocienteFibonacci(int n, int m) {
+        return fibonacci(n) / fibonacci(m);
     }
 }
