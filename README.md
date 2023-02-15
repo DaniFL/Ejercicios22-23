@@ -72,3 +72,8 @@ Son interfaces sin declaración de métodos y campos y se conocen como interface
 
 *Se le conoce como interfaz funcional a toda aquella interfaz que tenga solamente un método abstracto, es decir puede implementar uno o más métodos default, pero deberá tener forzosamente un único método abstracto. Un método abstracto en una interfaz es un método sin implementar.
 
+## Ejercicio 14
+#### - Averigüe la relación entre la sucesión de Fibonacci y la razón áurea. 
+
+Si divides cualquier número de la serie de Fibonacci entre el número anterior, obtienes la razón áurea.
+Es decir, siempre obtienes como resultado un valor cercano a 1.61803.
