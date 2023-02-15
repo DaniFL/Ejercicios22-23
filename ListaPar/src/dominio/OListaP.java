@@ -1,19 +1,30 @@
 package dominio;
 
+import java.util.Arrays;
+
 public class OListaP {
-    //Dada una lista de números naturales mayores o iguales que 2, obtiene
-    //otra lista con los números pares de la lista inicial, en el mismo orden y
-    //respetando los números repetidos. Por ejemplo,
-    //obtenerListaP ar([1, 2, 6, 11]) = [2, 6]. de manera recursiva
-    public int[] obtenerPares(int[] lista, int n) {
-        int[] listaPares = new int[n];
-        if (n == 0) {
-            return listaPares;
-        } else {
-            if (lista[n - 1] % 2 == 0) {
-                listaPares[n - 1] = lista[n - 1];
+    // Dada una lista de números naturales mayores o iguales que 2, obtiene otra lista con los números pares de la lista inicial, 
+    //en el mismo orden y respetando los números repetidos de manera recursiva
+    public static int[] listaPar(int[] lista) {
+        // Caso base
+        if (lista.length == 1) {
+            if (lista[0] % 2 == 0) {
+                return new int[] {lista[0]};
+            } else {
+                return new int[] {};
             }
-            return obtenerPares(lista, n - 1);
+        } else {
+            int[] listaPar = listaPar(Arrays.copyOfRange(lista, 1, lista.length));
+            if (lista[0] % 2 == 0) {
+                int[] nuevaLista = new int[listaPar.length + 1];
+                nuevaLista[0] = lista[0];
+                for (int i = 1; i < nuevaLista.length; i++) {
+                    nuevaLista[i] = listaPar[i - 1];
+                }
+                return nuevaLista;
+            } else {
+                return listaPar;
+            }
         }
     }
 }
