@@ -2,7 +2,6 @@ package dominio;
 
 import java.util.Arrays;
 public class OListaP {
-
     public static int[] listaPar(int[] lista) {
         // Caso base
         if (lista.length == 1) {

@@ -26,6 +26,7 @@ public class Principal {
             lista2[i] = sc.nextInt();
         }
         sc.close();
+        //Imprimimos los dos arrays.
         System.out.println("El primer array es: " + java.util.Arrays.toString(lista1));
         System.out.println("El segundo array es: " + java.util.Arrays.toString(lista2));
         //Imprimimos el producto escalar de los dos arrays.

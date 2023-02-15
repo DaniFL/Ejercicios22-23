@@ -5,7 +5,7 @@ public class Principal {
     public static void main(String[] args) {
         Media m = new Media();
         Scanner sc = new Scanner(System.in);
-        // Pedimos al usuario que introduzca el numero de elementos de la lista
+        // Pedimos al usuario que introduzca el número de elementos de la lista
         System.out.println("Ingrese el numero de elementos de la lista: ");
         int n = sc.nextInt();
         // Creamos un array de enteros de tamaño n

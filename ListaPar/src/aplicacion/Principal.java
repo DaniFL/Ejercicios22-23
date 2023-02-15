@@ -13,7 +13,6 @@ public class Principal {
         for (int i = 0; i < lista.length; i++) {
             lista[i] = Integer.parseInt(listaStr[i]);
         }
-        System.out.println(
-                "La lista de los números pares de la lista ingresada es: " + Arrays.toString(OListaP.listaPar(lista)));
+        System.out.println("La lista de los números pares de la lista ingresada es: " + Arrays.toString(OListaP.listaPar(lista)));
     }
 }

@@ -1,9 +1,8 @@
 package dominio;
 
 public class SPares {
-    //suma numeros pares de una lisra de manera recursiva
     public int sumaPares(int[] lista, int n) {
-        //Caso base: si el numero de elementos de la lista es 0, la suma de los pares es 0
+        //Caso base: si el número de elementos de la lista es 0, la suma de los pares es 0
         if (n == 0) {
             return 0;
         } else {

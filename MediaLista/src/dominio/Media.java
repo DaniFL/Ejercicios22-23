@@ -9,7 +9,7 @@ public class Media {
         for (int i = 0; i < lista.length; i++) {
             media += lista[i];
         }
-        // Devolvemos la media de la lista, que es la suma de todos los elementos de la lista entre el numero de elementos
+        // Devolvemos la media de la lista, que es la suma de todos los elementos de la lista entre el número de elementos
         return media / lista.length;
     }
 }
