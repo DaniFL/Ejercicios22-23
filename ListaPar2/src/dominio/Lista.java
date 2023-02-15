@@ -1,7 +1,6 @@
 package dominio;
 
 public class Lista {
-        // La lista de los primeros números pares hasta n asumiendo n ≥ 2 de manera recursiva
         public static int[] listaPar(int n) {
                 // Caso base
                 if (n == 2) {

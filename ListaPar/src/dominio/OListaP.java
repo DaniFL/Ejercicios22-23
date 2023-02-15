@@ -1,15 +1,13 @@
 package dominio;
 
 import java.util.Arrays;
-
 public class OListaP {
-    // Dada una lista de números naturales mayores o iguales que 2, obtiene otra lista con los números pares de la lista inicial, 
-    //en el mismo orden y respetando los números repetidos de manera recursiva
+
     public static int[] listaPar(int[] lista) {
         // Caso base
         if (lista.length == 1) {
             if (lista[0] % 2 == 0) {
-                return new int[] {lista[0]};
+                return new int[] { lista[0] };
             } else {
                 return new int[] {};
             }
