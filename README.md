@@ -15,7 +15,7 @@ Se debe cumplir:
 
 Demostración mediante inducción:
 -	Es cierto para un caso base
--	 Si supongo que es cierto para un valor n, puedo demostrar que se cumple para n +1
+-	Si supongo que es cierto para un valor n, puedo demostrar que se cumple para n +1
 
 #### En qué consisten los algoritmos iterativos.
 
