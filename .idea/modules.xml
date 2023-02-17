@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/SFibonacci/SFibonacci.iml" filepath="$PROJECT_DIR$/SFibonacci/SFibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/SParesLista/SParesLista.iml" filepath="$PROJECT_DIR$/SParesLista/SParesLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" filepath="$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumaEnesimoELambda/SumaEnesimoELambda.iml" filepath="$PROJECT_DIR$/SumaEnesimoELambda/SumaEnesimoELambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaLista/SumaLista.iml" filepath="$PROJECT_DIR$/SumaLista/SumaLista.iml" />
     </modules>
   </component>
