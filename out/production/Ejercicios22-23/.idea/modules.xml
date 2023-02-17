@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculo/Calculo.iml" filepath="$PROJECT_DIR$/Calculo/Calculo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" filepath="$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios22-23.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios22-23.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/Factorial/Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactorialELambda/FactorialELambda.iml" filepath="$PROJECT_DIR$/FactorialELambda/FactorialELambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/FactorialExLambda/FactorialExLambda.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/FactorialExLambda/FactorialExLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/FibonacciR/FibonacciR.iml" filepath="$PROJECT_DIR$/Recursividad/FibonacciR/FibonacciR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaPar/ListaPar.iml" filepath="$PROJECT_DIR$/ListaPar/ListaPar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaPar2/ListaPar2.iml" filepath="$PROJECT_DIR$/ListaPar2/ListaPar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/ListaPar2R/ListaPar2R.iml" filepath="$PROJECT_DIR$/Recursividad/ListaPar2R/ListaPar2R.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/ListaParR/ListaParR.iml" filepath="$PROJECT_DIR$/Recursividad/ListaParR/ListaParR.iml" />
       <module fileurl="file://$PROJECT_DIR$/MediaLista/MediaLista.iml" filepath="$PROJECT_DIR$/MediaLista/MediaLista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/MediaListaR/MediaListaR.iml" filepath="$PROJECT_DIR$/Recursividad/MediaListaR/MediaListaR.iml" />
       <module fileurl="file://$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" filepath="$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/PotenciaEnesimaR/PotenciaEnesimaR.iml" filepath="$PROJECT_DIR$/Recursividad/PotenciaEnesimaR/PotenciaEnesimaR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" filepath="$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/ProductoEscalarR/ProductoEscalarR.iml" filepath="$PROJECT_DIR$/Recursividad/ProductoEscalarR/ProductoEscalarR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SFibonacci/SFibonacci.iml" filepath="$PROJECT_DIR$/SFibonacci/SFibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SParesLista/SParesLista.iml" filepath="$PROJECT_DIR$/SParesLista/SParesLista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/SParesListaR/SParesListaR.iml" filepath="$PROJECT_DIR$/Recursividad/SParesListaR/SParesListaR.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" filepath="$PROJECT_DIR$/SumaEnesimo/SumaEnesimo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SumaEnesimoELambda/SumaEnesimoELambda.iml" filepath="$PROJECT_DIR$/SumaEnesimoELambda/SumaEnesimoELambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/SumaEnesimoExLambda/SumaEnesimoExLambda.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/SumaEnesimoExLambda/SumaEnesimoExLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/SumaEnesimoR/SumaEnesimoR.iml" filepath="$PROJECT_DIR$/Recursividad/SumaEnesimoR/SumaEnesimoR.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaLista/SumaLista.iml" filepath="$PROJECT_DIR$/SumaLista/SumaLista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/SumaListaR/SumaListaR.iml" filepath="$PROJECT_DIR$/Recursividad/SumaListaR/SumaListaR.iml" />
     </modules>
   </component>
 </project>
