@@ -16,8 +16,10 @@
       <module fileurl="file://$PROJECT_DIR$/ListaPar2/ListaPar2.iml" filepath="$PROJECT_DIR$/ListaPar2/ListaPar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/ListaPar2R/ListaPar2R.iml" filepath="$PROJECT_DIR$/Recursividad/ListaPar2R/ListaPar2R.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/ListaParR/ListaParR.iml" filepath="$PROJECT_DIR$/Recursividad/ListaParR/ListaParR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/MediaEX/MediaEX.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/MediaEX/MediaEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/MediaLista/MediaLista.iml" filepath="$PROJECT_DIR$/MediaLista/MediaLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/MediaListaR/MediaListaR.iml" filepath="$PROJECT_DIR$/Recursividad/MediaListaR/MediaListaR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/PotenciaEX/PotenciaEX.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/PotenciaEX/PotenciaEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" filepath="$PROJECT_DIR$/PotenciaEnesima/PotenciaEnesima.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/PotenciaEnesimaR/PotenciaEnesimaR.iml" filepath="$PROJECT_DIR$/Recursividad/PotenciaEnesimaR/PotenciaEnesimaR.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" filepath="$PROJECT_DIR$/ProductoEscalar/ProductoEscalar.iml" />
@@ -30,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/SumaEnesimoExLambda/SumaEnesimoExLambda.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/SumaEnesimoExLambda/SumaEnesimoExLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/SumaEnesimoR/SumaEnesimoR.iml" filepath="$PROJECT_DIR$/Recursividad/SumaEnesimoR/SumaEnesimoR.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumaLista/SumaLista.iml" filepath="$PROJECT_DIR$/SumaLista/SumaLista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/SumaListaEX/SumaListaEX.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/SumaListaEX/SumaListaEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/SumaListaR/SumaListaR.iml" filepath="$PROJECT_DIR$/Recursividad/SumaListaR/SumaListaR.iml" />
     </modules>
   </component>

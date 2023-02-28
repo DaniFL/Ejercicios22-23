@@ -11,7 +11,6 @@ public class Principal {
         System.out.println("Ingrese un numero: ");
         int n = sc.nextInt();
         sc.close();
-
         int suma = IntStream.rangeClosed(1, n)
                 .reduce(0, (subtotal, elemento) -> subtotal + elemento);
 

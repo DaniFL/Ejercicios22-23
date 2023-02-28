@@ -15,3 +15,7 @@ package dominio;public class Desviacion {
         return suma / n;
     }
 }
+
+
+
+
