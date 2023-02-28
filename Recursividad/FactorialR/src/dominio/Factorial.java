@@ -9,5 +9,6 @@ public class Factorial {
         } else {
             return n * calcularFactorial(n - 1);
         }
+
     }
 }
