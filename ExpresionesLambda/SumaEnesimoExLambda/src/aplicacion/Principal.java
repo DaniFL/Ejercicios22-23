@@ -11,9 +11,10 @@ public class Principal {
         System.out.println("Ingrese un numero: ");
         int n = sc.nextInt();
         sc.close();
-        int suma = IntStream.rangeClosed(1, n)
+        System.out.println("La suma enésima de " + n + " es: " + suma(n));
+    }
+    public static int suma(int n) {
+        return IntStream.rangeClosed(1, n)
                 .reduce(0, (subtotal, elemento) -> subtotal + elemento);
-
-        System.out.println("La suma enésima de los primeros " + n + " números es: " + suma);
     }
 }

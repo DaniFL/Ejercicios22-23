@@ -77,3 +77,10 @@ Son interfaces sin declaración de métodos y campos y se conocen como interface
 
 Si divides cualquier número de la serie de Fibonacci entre el número anterior, obtienes la razón áurea.
 Es decir, siempre obtienes como resultado un valor cercano a 1.61803.
+
+## Ejercicio 10 
+#### - Explique qué es List en Java y qué relación guarda con Array-List.
+
+List es una interfaz de Java que representa una colección de objetos. Es una interfaz genérica, es decir, que puede contener objetos de cualquier tipo.
+
+ArrayList es una clase que implementa la interfaz List.

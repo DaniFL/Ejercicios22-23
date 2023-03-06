@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Calculo/Calculo.iml" filepath="$PROJECT_DIR$/Calculo/Calculo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/CalculoR/CalculoR.iml" filepath="$PROJECT_DIR$/Recursividad/CalculoR/CalculoR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpresionesLambda/DesviacionEX/DesviacionEX.iml" filepath="$PROJECT_DIR$/ExpresionesLambda/DesviacionEX/DesviacionEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" filepath="$PROJECT_DIR$/DesviacionLista/DesviacionLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursividad/DesviacionListaR/DesviacionListaR.iml" filepath="$PROJECT_DIR$/Recursividad/DesviacionListaR/DesviacionListaR.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Ejercicios22-23.iml" filepath="$PROJECT_DIR$/.idea/Ejercicios22-23.iml" />
