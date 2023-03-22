@@ -72,15 +72,24 @@ Son interfaces sin declaración de métodos y campos y se conocen como interface
 
 *Se le conoce como interfaz funcional a toda aquella interfaz que tenga solamente un método abstracto, es decir puede implementar uno o más métodos default, pero deberá tener forzosamente un único método abstracto. Un método abstracto en una interfaz es un método sin implementar.
 
-## Ejercicio 14
+## Ejercicio 2
+### Apartado 14
 #### -	Averigüe la relación entre la sucesión de Fibonacci y la razón áurea. 
 
 Si divides cualquier número de la serie de Fibonacci entre el número anterior, obtienes la razón áurea.
 Es decir, siempre obtienes como resultado un valor cercano a 1.61803.
 
-## Ejercicio 10 
+## Ejercicio 2 
+### Apartado 10
 #### - Explique qué es List en Java y qué relación guarda con Array-List.
 
 List es una interfaz de Java que representa una colección de objetos. Es una interfaz genérica, es decir, que puede contener objetos de cualquier tipo.
 
 ArrayList es una clase que implementa la interfaz List.
+
+## Ejercicio 12
+#### - Explique qué es una expresion lambda y para qué sirve.
+
+Las expresiones lambda son funciones anónimas, es decir, funciones que no necesitan una clase. El operador lambda (->) separa la declaración de parámetros
+de la declaración del cuerpo de la función.
+Las expresiones lambda son un método sin declaración, es decir, sin modificadores de acceso, que devuelve un valor y un nombre. Permiten escribir un método y utilizarlo inmediatamente. Esto es útil en el caso de una única llamada a un método, ya que permite reducir el tiempo de declarar y escribir el método sin tener que crear una clase.
